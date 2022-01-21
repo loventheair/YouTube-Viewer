@@ -112,7 +112,7 @@ COMMANDS = [Keys.UP, Keys.DOWN, 'k', 'j', 'l', 't', 'c']
 website.console = console
 website.database = DATABASE
 
-link = 'https://gist.githubusercontent.com/MShawon/29e185038f22e6ac5eac822a1e422e9d/raw/versions.txt'
+link = 'https://raw.githubusercontent.com/Domenik1408/versions/main/versions.txt'
 
 output = requests.get(link, timeout=60).text
 chrome_versions = output.split('\n')
