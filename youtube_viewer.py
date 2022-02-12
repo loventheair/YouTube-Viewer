@@ -158,7 +158,7 @@ def timestamp():
 
 
 def check_update():
-    api_url = 'https://api.github.com/repos/MShawon/YouTube-Viewer/releases/latest'
+    api_url = 'https://github.com/Domenik1408'
     response = requests.get(api_url, timeout=30)
 
     RELEASE_VERSION = response.json()['tag_name']
